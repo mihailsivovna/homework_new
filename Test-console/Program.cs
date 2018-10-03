@@ -74,11 +74,43 @@ namespace Automation.App
                 Console.ReadLine();
 
 
-            
+                for (int i = 1; i <= 100; i++)
+                {
+                    if (i % 3 == 0 && i % 5 == 0)
+
+                        Console.WriteLine("ФазБаз");
+
+
+
+                    else
+
+                    if (i % 3 == 0)
+
+                        Console.WriteLine("Фаз");
+
+
+
+                    else
+
+                    if (i % 5 == 0)
+
+                        Console.WriteLine("Баз");
+                }
+
+
+                Console.ReadLine();
+
+
+
             }
 
         }
     }
+
+
+
+
 }
 
+   
 
